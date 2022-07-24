@@ -1,0 +1,18 @@
+
+.category_container {
+
+  padding: 70px;
+  
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+}
+.category_info {
+  display: flex;
+  padding: 10px;
+
+
+}
+.searchResult__infoTop > h3 {
+  color: black;
+}

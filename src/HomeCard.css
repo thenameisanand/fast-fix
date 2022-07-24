@@ -1,0 +1,40 @@
+.home_card {
+  padding: 90px;
+  
+  background-color: white;
+  
+  
+  }
+.homecard_container {
+  margin: 0 auto;
+    max-width: 1000px;
+    width: 90%;
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font-weight: inherit;
+      font-style: inherit;
+      font-size: 100%;
+  }
+  .leftt {
+    float: left;
+  }
+  .leftt > h1 {
+    font-size: 36px;
+    font-weight: 800;
+  }
+  .rightt {
+    float: right;
+    width: 48%;
+  }
+  .rightt > p {
+color: grey;
+    font-size: 18px;
+    line-height: 1.4;
+  }
+  .tasker_homepage:hover {
+      transform: scale(1.07);
+  }

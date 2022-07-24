@@ -1,0 +1,36 @@
+.catOption_info {
+    padding: 20px;
+    border-radius: 30px;
+    text-transform: inherit;
+    margin: 5px;
+  }
+
+.catOption_info > p {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.searchPage__info > h1 {
+    margin-bottom: 30px;
+}
+
+.searchPage__info > button {
+    border-radius: 30px;
+    text-transform: inherit;
+    margin: 5px;
+  }
+  .search_button {
+    display: flex;
+    border-radius: 30px;
+    text-transform: inherit;
+    margin: 5px;
+    justify-content: space-evenly;
+    
+  }
+  .service__button {
+    padding: 50px;
+    border-radius: 2px;
+    display: flex;
+    background-color: red;
+    
+  }

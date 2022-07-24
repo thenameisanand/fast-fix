@@ -1,0 +1,23 @@
+.footer {
+  box-shadow: 0px 8px 18px -9px rgba(0, 0, 0, 0.75);
+font-family: cursive;
+  background-color: #f2e9e4;
+  color: rosybrown;
+  border-top: 1px solid lightgrey;
+  padding: 60px;
+  text-align: center;
+}
+.footer_nav {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-size: smaller;
+}
+.footer_nav > p {
+  padding: 5px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}

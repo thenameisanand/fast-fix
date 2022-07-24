@@ -1,0 +1,109 @@
+.user_auth {
+  background-color: whitesmoke;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+
+}
+.user_container {
+  background-color: white;
+  width: 300px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  border-radius: 35px;
+  border: 2px solid lightgray;
+
+  /*border: 1px solid lightgray;*/
+  padding: 50px;
+}
+.user_container > h1 {
+
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.user_container > form > h5 {
+  margin-bottom: 5px;
+}
+.user_container > form > input {
+  background-color: white;
+  color: black;
+  border: none;
+  height: 30px;
+  margin-bottom: 10px;
+  background-color: #f2e9e4;
+  width: 98%;
+  border-bottom: 1px solid black;
+}
+.user_loginButton {
+  border-radius: 20px;
+  color: #dcae96;
+  font-family: monospace;
+  background: black;
+  border-radius: 20px;
+  width: 100%;
+  height: 30px;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: #a88734 #9c7e31 #846a29;
+  /* font-family: monospace;
+  transform: perspective();
+  cursor: pointer;
+  color: #dcae96;
+  background: black;
+  border-radius: 2px;
+  width: 100%;
+  height: 30px;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: #a88734 #9c7e31 #846a29;*/
+}
+.user_container > button {
+  border-radius: 20px;
+}
+.user_loginButton:hover {
+  opacity: 0.6;
+  background-color: white;
+  color: black;
+  transition: 0.2;
+}
+.user_registerButton {
+  transition: 0.3s;
+ 
+  color: #dcae96;
+  font-family: monospace;
+  background: black;
+  border-radius: 20px;
+  width: 100%;
+  height: 30px;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: #a88734 #9c7e31 #846a29;
+}
+.user_registerButton:hover {
+  opacity: 0.6;
+  background-color: white;
+  color: black;
+}
+.user_container > button {
+  cursor: pointer;
+  color: #dcae96;
+  font-family: monospace;
+  background: black;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: #a88734 #9c7e31 #846a29;
+}
+.user_container > p {
+  padding: 10px;
+  align-items: center;
+  text-align: center;
+  font-size: smaller;
+}
+.user_container > p > strong {
+  cursor: pointer;
+}

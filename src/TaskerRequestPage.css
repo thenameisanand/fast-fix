@@ -1,0 +1,142 @@
+
+.requestPage {
+    background-color: whitesmoke;
+}
+.requestPage__top {
+    padding: 40px;
+    align-items: center;
+    text-align: center;
+
+}
+.requestPage__top > h1 {
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 3px;
+
+}
+.requestPage__top > img {
+    cursor: pointer;
+    object-fit: cover;
+    margin-top: -79px;
+    display: flex;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+.requestPage__top > strong {
+    color: grey;
+}
+.requestPage__bottom {
+    height: 200000px;
+    justify-content: space-around;
+    display: flex;
+    
+}
+.requestPageBottom__left {
+    box-shadow: 0px 3px 10px -9px rgba(0, 0, 0, 0.75);
+
+    width: 600px;
+    height: 300px;
+    background-color: white;
+
+}
+.bottomtop__date {
+text-align: right;
+margin-right: 29px;
+}
+.bottomtop__date > p{
+    padding: 10px;
+    font-family: cursive;
+}
+.bottomtop__date > h4 {
+    margin-top: -20px;
+    margin-right: 450px;
+}
+.bottomtop__date > img {
+    width: 200px;
+    height: 220px;
+    object-fit: contain;
+}
+.requestPageBottom__right {
+    box-shadow: 0px 3px 10px -9px rgba(0, 0, 0, 0.75);
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    margin-top: 12px;
+}
+.requestPage__top > h4 {
+    color: #3b9e5e;
+
+    letter-spacing: 2px;
+    font-family: cursive;
+    margin-top: -7px;
+}
+.description__containers {
+
+    justify-content: space-around;
+    display: flex;
+    width: 1200px;
+    height: 500px;
+background-color: white;
+}
+.description__containersLeft {
+    margin-left: -28px;
+    width: 500px;
+    margin-top: 30px;
+    height: 300px;
+}
+.description__containersLeft > h2 {
+    margin-left: 20px;
+    font-family: cursive;
+    color: #3b9e5e;
+}
+.description__containersLeft > h3 {
+    font-size: 20px;
+    margin-left: 20px;
+    letter-spacing: 1px;
+    color: grey;
+}
+.description__containersLeft > p {
+    margin-top: -20px;
+    margin-left: 20px;
+}
+.description__containersRight {
+
+    margin-left: -100px;
+    width: 500px;
+    margin-top: 30px;
+    height: 500px;
+}
+.description__containersRight > h3 {
+    margin-top: 76px;
+    margin-left: 20px;
+}
+.description__containersRight > input {
+    border: 1px solid black;
+    height: 147px;
+    width: 480px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.description__containersRight > button {
+    margin-left: 20px;
+    margin-top: 10px;
+    background-color: white;
+    border: 1px solid black;
+}
+.description__containersRight > p {
+margin-left: 20px;
+margin-top: -17px;
+
+}
+.requestPage__bottoms {
+    
+        height: 600px;
+        justify-content: space-around;
+        display: flex;
+        
+    
+}
+.description__containersRight > h3 {
+    color: grey;
+}

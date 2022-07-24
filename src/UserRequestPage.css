@@ -1,0 +1,116 @@
+.userRequestPage {
+    background-color: white;
+    height: 30000px;
+    padding: 30px;
+}
+.userRequestPage__container {
+    background-color: white;
+    height: 700px;
+    width: 800px;
+    margin-left: 90px;
+}
+.userRequestPage__top {
+    border-bottom: 1px solid lightgray;
+    justify-content: space-around;
+    display: flex;
+    border: 1px solid lightgray;
+}
+.userRequestPage__top > h1 {
+    color: green;
+    margin-left: 20px;
+}
+.userRequestPage__top > button {
+    margin-top: 40px;
+    border: 1px solid red;
+    height: 30px;
+    margin-left: 40px;
+    color: red;
+}
+.userRequestPage__middle {
+    border: 1px solid lightgray;
+    margin-top: 30px;
+    height: 120px;
+}
+.userRequestPage__middle > p {
+    margin-left: 20px;
+}
+.userRequestPage__bottom {
+    border: 1px solid lightgrey;
+}
+.userRequestPage__bottomTop {
+    align-items: center;
+    text-align: center;
+    height: 100px;
+}
+.userRequestPage__bottomTop > button {
+    margin-top: 40px;
+    border: 1px solid blue;
+    height: 30px;
+    margin-left: 40px;
+    color: blue;
+}
+.userRequestPage__below > p {
+    text-align: center;
+    color: green;
+    margin-left: 43px;
+}
+.toggle__button {
+    display: flex;
+    margin-left: 1000px;
+}
+.toggle__button > input {
+    margin-top: -600px;
+    height: 200px;
+    width: 300px;
+}
+.userRequestPage__middle > input {
+    margin-left: 20px;
+    height: 30px;
+    width: 400px;
+}
+.reschedule {
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.reschedule > button {
+    margin-left: 20px;
+    font-size: 10px;
+    font-family: monospace;
+    letter-spacing: 2px;
+    border: 1px solid black;
+}
+.toggle__button {
+    box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+
+    display: grid;
+    margin-top: -640px;
+    height: 460px;
+    border: 1px solid lightgray;
+}
+.toggle__button > h1 {
+    letter-spacing: 1px;
+    font-family: cursive;
+    margin-left: 10px;
+}
+.toggle__button > p{
+    background-color: white;
+    margin-top: -150px;
+    margin-left: 10px;
+}
+.payment__div {
+    margin-left: 10px;
+}
+.payment__div > h1 {
+    letter-spacing: 1px;
+    font-family: monospace;
+}
+.contact__container > h3 {
+    box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+height: 79px;
+    background-color: whitesmoke;
+}
+.contact__details > h3 {
+    color: grey;
+    margin-top: -90px;
+    margin-left: 20px;
+}

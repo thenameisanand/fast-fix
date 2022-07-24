@@ -1,0 +1,70 @@
+.belowOneCategory__inputs {
+  height: 443.583px;
+  width: 860px;
+  margin-left: 20px;
+  justify-content: center;
+  background-color: #edf2f9;
+  align-items: center;
+  border-radius: 15px;
+}
+.belowOneCategory__inputs > img {
+  display: grid;
+  margin-left: 15px;
+  height: 280.783px;
+  width: 620px;
+}
+.belowOneCategory__inputs > img {
+  height: 443.583px;
+  width: 650px;
+  margin-left: 130px;
+  box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+  justify-content: center;
+  background-color: white;
+  align-items: center;
+}
+
+.inputs__details > h1 {
+  color: grey;
+  font-size: x-large;
+  margin-left: 10px;
+  padding: 10px;
+}
+.inputs__details > form > input {
+  margin-top: 20px;
+  border-radius: 5px;
+  border-color: lightgrey;
+  margin-left: 20px;
+  height: 20px;
+  width: 230px;
+  padding: 2px 20px 2px 20px;
+}
+.inputs__details > form > input::placeholder {
+  font-family: monospace;
+}
+.inputs__details > button {
+  margin-top: 28px;
+  margin-left: 20px;
+}
+.inputs__detailsTwo > form > input {
+  width: 488px;
+  height: 112px;
+  margin-top: 20px;
+  margin-left: 20px;
+  border-radius: 5px;
+  border-color: lightgrey;
+  padding: 2px 20px 2px 20px;
+  
+
+}
+.inputs__detailsTwo > form > input::placeholder {
+  font-family: monospace;
+  border-bottom: red;
+
+}
+.inputs__details > button {
+  border-radius: 15px;
+  font-family: monospace;
+  color: #00864e;
+  background-color: #ccf6e4;
+  
+}

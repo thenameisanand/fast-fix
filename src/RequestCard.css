@@ -1,0 +1,68 @@
+.requestCard__container {
+    margin-left: -390px;
+    display: flex;
+    box-shadow: 0px 6px 10px -9px rgba(0, 0, 0, 0.75);
+    width: 776px;
+    height: 400px;
+    background-color: white;
+    margin-top: 10px;
+    border-left: 5px solid #dcae96;
+    cursor: pointer;
+}
+.requestCard__container:hover {
+    box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+
+    opacity: 0.8;
+}
+.requestCard {
+    justify-content: space-around;
+    display: flex;
+}
+.requestCard__time > h4 {
+    color: red;
+    margin-top: 100px;
+    margin-right: 400px;
+}
+.bottomtop__dateTwo > h3{
+    margin-right: 400px;
+    color: red;
+}
+.bottomtop__dateTwo > h4 {
+    margin-right: 462px;
+}
+.requestCard__top {
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.requestCard__top > h3 {
+    letter-spacing: 2px;
+    cursor: pointer;
+    font-family: cursive;
+}
+.requestCard__top > strong {
+    color: #3b9e5e;
+}
+.requestCard__bottom {
+    margin-left: 20px;
+}
+.requestCard__image {
+    margin-top: 90px;
+    margin-left: 300px;
+}
+.requestCard__image > img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+
+.requestCard__button > button {
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    color: black;
+    font-size: 11px;
+    font-family: monospace;
+    letter-spacing: 2px;
+}

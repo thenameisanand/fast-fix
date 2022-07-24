@@ -1,0 +1,17 @@
+.BookService__containers {
+    text-align: center;
+    align-items: center;
+    margin-top: -521px;
+    padding: 550px;
+    background-color: white;
+    height: 600px;
+}
+.BookService__containers > h1 {
+    font-family: 'Shadows Into Light', cursive;
+margin-left: -40px;
+}
+.savedetails__buttons > button {
+    margin-top: -290px;
+    margin-left: 500px;
+    border: 1px solid black;
+}

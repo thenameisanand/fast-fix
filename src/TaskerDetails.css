@@ -1,0 +1,25 @@
+
+.SearchButton__tas {
+  padding-bottom: 10px;
+  padding: 20px;
+  padding-left: 1182px;
+}
+.SearchButton__class {
+    border-radius: 30px;
+}
+.SearchButton__tas > form > input::placeholder {
+    color: gray;
+}
+.SearchButton__class {
+    border-radius: 30px;
+    text-transform: inherit;
+    margin: -3px;
+    justify-content: space-evenly;
+    border-color: grey;
+    padding: 10px;
+    border-radius: 30px;
+    display: flex;
+}
+.SearchButton__class::placeholder {
+    color: grey;
+}

@@ -1,0 +1,31 @@
+.review:hover {
+    transform: 0.2s;
+}
+.review__container {
+    background-color: white;
+    box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+width: 530px;
+margin-left: 270px;
+}
+.review__container:hover {
+    opacity: 0.8s;
+    transform: 0.3s;
+    transition: 0.3s;
+}
+.review__top > img {
+    margin-top: 5px;
+    height: 335px;
+    width: 620px;
+    object-fit: contain;
+    margin-left: -45px;
+}
+.review__bottom > input {
+    height: 26px;
+    width: 214px;
+    border: 1px solid lightgray;
+    padding: 1px 10px 2px 20px;
+
+}
+.review__bottom > button {
+    margin-left: 5px;
+}

@@ -1,0 +1,108 @@
+.tasker_auth {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 180px;
+  background-color: whitesmoke;
+}
+.tasker_container {
+  width: 400px;
+  height: 422px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  border: 2px solid lightgray;
+  padding-bottom: 10px;
+  background-color: white;
+  border-radius: 35px;
+  box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+
+  padding: 40px;
+}
+.tasker_container > h1 {
+  font-family: cursive;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.tasker_container > form > h5 {
+  margin-bottom: 5px;
+}
+.tasker_container > form > input {
+  background-color: white;
+  color: black;
+  border: none;
+  height: 16px;
+  margin-bottom: 10px;
+  width: 98%;
+  border-bottom: 1px solid black;
+}
+.tasker_loginButton {
+  color: #dcae96;
+  font-family: monospace;
+  background: black;
+  border-radius: 16px;
+  width: 100%;
+  height: 30px;
+  border: 1px solid;
+  margin-top: 20px;
+  border-color: #a88734 #9c7e31 #846a29;
+  /* font-family: monospace;
+  transform: perspective();
+  cursor: pointer;
+  color: #dcae96;
+  background: black;
+  border-radius: 2px;
+  width: 100%;
+  height: 30px;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: #a88734 #9c7e31 #846a29;*/
+}
+.tasker_loginButton:hover {
+  opacity: 0.6;
+  background-color: white;
+  color: black;
+  transition: 0.2;
+}
+.tasker_registerButton {
+  transition: 0.3s;
+
+  color: #dcae96;
+  font-family: monospace;
+  background: black;
+  border-radius: 16px;
+  width: 100%;
+  height: 60px;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: #a88734 #9c7e31 #846a29;
+}
+.tasker_registerButton:hover {
+  opacity: 0.6;
+  background-color: white;
+  color: black;
+}
+.tasker_container > button {
+  cursor: pointer;
+  color: #dcae96;
+  font-family: monospace;
+  background: black;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: #a88734 #9c7e31 #846a29;
+}
+.signin__div > p > strong {
+  cursor: pointer;
+}
+.tasker_container > select {
+  border-top: white;
+  border-color: white;
+  border-left: white;
+  background-color: white;
+  font-size: 15px;
+  font-family: monospace;
+  text-align: center;
+}

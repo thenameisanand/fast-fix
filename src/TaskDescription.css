@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@500&family=Source+Code+Pro:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@500&family=Source+Code+Pro:wght@200;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Oswald:wght@500&family=Source+Code+Pro:wght@200;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Oswald:wght@500&family=Shadows+Into+Light&family=Source+Code+Pro:wght@200;700&display=swap');
+.description {
+  padding: 80px;
+  background-color: white;
+}
+.description__container {
+  display: flex;
+  justify-content: space-between;
+}
+.description__left {
+  padding: 20px;
+  margin-right: 140px;
+}
+.description__left > img {
+  border-radius: 15px;
+  object-fit: cover;
+  width: 300px;
+  height: 400px;
+}
+.description__right {
+  margin-right: 160px;
+}
+.description__right > h1 {
+  padding-top: 15px;
+  color: grey;
+}
+.description__right > h3 {
+  color: grey;
+  margin-right: 120px;
+}
+.description__right > p {
+  color: gray;
+}
+.description__button {
+
+  padding: 40px;
+  text-align: center;
+  align-items: center;
+}
+.description__button > button {
+    border: 2px solid #1aa170;
+color: #f1f3ffff;
+  transition: 0.2s;
+  height: 43px;
+  width: 150px;
+  text-decoration: dotted;
+  background-color: white;
+}
+.description__button > button:hover {
+    background-color: #f7ced7ff;
+    color: white;
+}
+.description__rightService {
+  justify-content: space-between;
+  display: flex;
+  background-color: white;
+}
+.description__rightService > h4 {
+  margin-right: 48px;
+}
+.description__rightService > h3 {
+  margin-right: 53px;
+  color: grey;
+}
+.description__bottom {
+  padding-left: 50px;
+  padding: 40px;
+  background-color: white;
+}
+.description__upperButton {
+  display: flex;
+  margin-left: -97px;
+  padding: 90px;
+  padding-top: 93px;
+}
+.description__upperButton > button {
+  color: black;
+  background-color: white;
+}
+.description__lowerButton {
+  margin-left: 10px;
+}
+.description__lowerButton > button {
+  color: #dcae96;
+  background-color: #f2e9e4;
+}
+
+.description__bottomHeader {
+  justify-content: space-evenly;
+  display: flex;
+  width: 750px;
+  height: 627px;
+  padding-right: 477px;
+  padding-left: 120px;
+  margin-left: -78px;
+  background-color: #edecec;
+}
+.bottomHeader__left {
+    margin-top: 120px;
+    width: 300px;
+    height: 300px;
+    background-color: white;
+  padding: 90px;
+  margin-left: -490px;
+}
+.bottomHeader__left > h1 {
+  font-size: 34px;
+  font-family: "Oswald", sans-serif;
+  text-align: left;
+  margin-bottom: 180px;
+}
+.bottomHeader__right {
+  margin-bottom: 20px;
+  margin-top: 120px;
+  margin-right: -300px;
+  padding-right: 120px;
+  background-color: whitesmoke;
+  box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+}
+.bottomHeader__right > img {
+  padding-left: 120px;
+  padding-top: 90px;
+  object-fit: contain;
+  width: 300px;
+  height: 400px;
+}
+.bottomHeader__left > form > input {
+  margin-bottom: -300px;
+  height: 120px;
+  width: 300px;
+}
+.bottom__line {
+  text-align: center;
+}
+.description__bottomHeader > h1 {
+    text-align: center;
+}
+.description__bottomHeader > h2 {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.bottomHeader__left > form > input{
+    margin-bottom: 800px;
+}
+.description__button > h2 {
+  color: grey;
+  font-family: 'Shadows Into Light', cursive;
+}
+.description__button {
+}
+.description__buttonTwo {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  padding: 250px;
+  background-color: white;
+}
+.description__buttonTwo > h1 {
+  align-items: ce;
+}
+.button__leftside {
+display: grid;
+  margin-top: -200px;
+margin-left: -200px;
+  height: 530px;
+  width: 470px;
+  background-color:white ;
+  padding: 45px;
+}
+.button__rightside {
+  margin-top: -435px;
+  margin-left: -10px;
+  height: 400px;
+}
+.leftside__inputs {
+  margin-top: -50px;
+  width: 600px;
+  margin-left: -140px;
+}
+.leftside__inputs > h1 {
+  color: grey;
+  font-family: 'Shadows Into Light', cursive;
+
+}
+.leftside__inputs > form > input {
+  background-color: #f5f5f5;
+  margin-left: 124px;
+  width: 500px;
+  height:150px;
+  border: 2px solid #ccc;
+}

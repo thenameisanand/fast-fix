@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Oswald:wght@500&family=Shadows+Into+Light&family=Source+Code+Pro:wght@200;700&display=swap');
+
+.BookService {
+    margin-top: -25px;
+    text-align: center;
+    padding: 0px;
+}
+.BookService > h1 {
+    font-family: 'Shadows Into Light', cursive;
+
+}
+.BookService__container {
+    text-align: center;
+    align-items: center;
+}
+.BookService__container > h1 {
+    font-family: 'Shadows Into Light', cursive;
+
+}
+.BookService__heading > h1 {
+    cursor: pointer;
+
+    font-family: 'Shadows Into Light', cursive;
+color: grey;
+}
+.BookService__heading {
+    background-color: white;
+}
+.BookService__container {
+    margin-top: -21px;
+    padding: 550px;
+    background-color: white;
+}
+.BookService__containerMiddle {
+    margin-top: -511px;
+    margin-left: -528px;
+    width: 1303px;
+    height: 500px;
+    /*background-color: #f4f0ea;*/
+    background-color: white;
+}
+.BookService__containerMiddle > h1 {
+    font-size: 48px;
+    height: 10px;
+    font-family: 'Shadows Into Light', cursive;
+    padding: 100px;
+}
+.containerMiddle__p {
+    margin-top: -89px;
+}
+.containerMiddle__p > p {
+    font-family: 'Shadows Into Light', cursive;
+    margin-top: -10px;
+
+    color: grey;
+}
+.containerMiddle__p > h2 {
+    padding: 30px;
+    color: #3b9e5e;
+
+}
+.socialMedia__icons {
+    position: fixed;
+    margin-top: -120px;
+}
+.socialMedia__icons > p {
+    cursor: pointer;
+    width: 100px;
+    padding-left: -400px;
+}
+.BookService__bottom {
+    margin-left: -524px;
+    width: 1303px;
+    height: 400px;
+    background-color: whitesmoke;
+    display: flex;
+
+}
+.BookService__bottomTwo {
+    display: flex;
+}
+
+
+
+.BookService__bottomRight {
+    margin-left: 50px;
+    background-color: #f7f7f7;
+}
+.bottomRight__details {
+
+margin: 20px;  
+  color: gray;
+    width: 360px;
+    text-align: left;
+    margin-right: 50px;
+    margin-top: -720px;
+    margin-left: 100px;
+}
+.bottomRight__details > h2 {
+    color: #3b9e5e;
+}
+.bottomRight__inputs > form > input {
+    border: 1px solid lightgray;
+    background-color: #f7f7f7;
+    width: 166px;
+    height: 30px;
+    margin-left: 10px;
+    padding: 0px;
+    margin-top: 20px;
+}
+.bottomRight__inputs > h3 {
+    text-decoration: none;
+}
+.bottomRight__inputsTwo > form > input {
+    border-radius: 5px;
+    background-color: whitesmoke;
+    margin-top: 20px;
+    border: 2px solid lightgray;
+    width: 342px;
+    height: 60px;
+    margin-left: 10px;
+}
+.bottomRight__inputsTwo > form > input::placeholder {
+    color: grey;
+}
+.bottomRight__inputs > form > input::placeholder {
+    margin-left: 20px;
+    color: grey;
+}
+.bottomRight__inputs > form > input::-webkit-input-placeholder {
+    text-align: center;
+  }
+  .BookService__bottomLeft {
+    width: 1303px;
+    background-color: white;
+  }
+  .BookService__bottomLeft > img {
+    border-radius: 15px;
+    object-fit: contain;
+    margin-left: -1036px;
+    height: 400px;
+  }
+  .BookService__bottomLeft > h1 {
+    margin-left: 200px;
+    margin-top: 18px;
+  }
+  .bottomLeft__inputs {
+    
+    margin-left: 300px;
+    width: 550px;
+    height: 300px;
+    margin-top: -400px;
+  }
+  .bottomLeft__inputs > h1 {
+    font-family: 'Shadows Into Light', cursive;
+
+    margin-left: -300px;
+  }
+  .bottomLeft__inputs > h4 {
+    margin-left: -300px;
+  }
+  .bottomLeft__inputs > form > input{
+    margin-left: -300px;
+ }
+ .form__inputs > form > input {
+    height: 20.9px;
+    width: 186px;
+    border: 1px solid grey;
+    border-radius: 25px;
+    padding: 5px 32px 5px 32px;
+    margin-left: 48px;
+    display: flex;
+    margin-top: 10px;
+ }
+ .form__inputs {
+    display: flex;
+ }
+ .form__inputs > h1 {
+    margin-left: 40px;
+ }
+ .form__inputs > h1 > form > input {
+    border: 1px solid grey;
+    height: 20.9px;
+    width: 186px;
+ }
+ .form__inputsTwo {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 40px;
+ }
+ .form__inputsTwo >  input {
+    border: 1px solid grey;
+
+    height: 60px;
+    width: 186px;
+    border-radius: 25px;
+    padding: 5px 32px 5px 32px;
+    
+ }
+ .form__inputThree {
+    margin-top: 86px;
+    margin-left: -264px;
+ }
+ .form__inputThree >  input {
+    height: 20.9px;
+    width: 186px;
+    border: 1px solid grey;
+    border-radius: 25px;
+    padding: 5px 32px 5px 32px;
+    margin-left: 12px;
+    display: flex;
+    margin-top: 5px;
+
+ }
+ .form__inputs > form > p {
+    font-size: 12px;
+    color: red;
+    font-family: monospace;
+ }
+ .form__inputFour > input {
+    height: 20.9px;
+    width: 186px;
+    border: 1px solid grey;
+    border-radius: 25px;
+    padding: 5px 32px 5px 32px;
+    margin-left: 12px;
+    display: flex;
+    margin-top: 5px;
+    margin-top: -3px;
+ }
+ .BookService__bottomLeftTwo {
+    padding: 20px;
+    margin-left: -524px;
+    width: 1264px;
+    height: 400px;
+    background-color: white;
+ }
+ .BookService__bottomLeftTwo > h4 {
+    padding: 10px;
+    font-size: 16px;
+    margin-left: -900px;
+ }
+ .BookService__bottomLeftTwo > h2 {
+    margin-left: -749px;
+ }
+ .checbox {
+    margin-top: 30px;
+    padding: 20px;
+    margin-left: -524px;
+
+ }
+ .checbox > h4 {
+    margin-left: -9px;
+ }
+ .checbox > p {
+    color: grey;
+    margin-top: -30px;
+    margin-left: 74px;
+ }
+ .checbox__form > form {
+    display: flex;
+}
+.checbox__middle >  form > label {
+    color: black;
+    font-family: monospace;
+    padding: 17px;
+    size: 10px;
+    font-size: 15px;
+}
+.checbox__middle > form {
+    margin-left: 490px;
+}
+.checbox > h2 {
+    margin-left: 139px;
+}
+.checbox__below > input {
+    width: 600px;
+    height: 100px;
+}
+.checbox__below > h4 {
+    margin-left: 122px;
+}
+.checbox__below > input {
+    border: 1px solid grey;
+    margin-left: 519px;
+    padding: 10px;
+    border-radius: 25px;
+
+}
+.checbox__date > label >input {
+    padding: 30px;
+  display: flex;
+}
+.checbox__date {
+    padding: 10px;
+    margin-left: 80px;
+}
+.bottomLeft__inputs > p {
+
+    margin-top: -20px;
+    margin-left: -351px;
+    color: #3b9e5e;
+}
+.checbox__belowDate > h4 {
+    margin-left: -68px;
+}
+.checbox__belowDate > input {
+ 
+    margin-left: 8px;
+}
+.checbox__date > h4 {
+
+    margin-left: -90px;
+}
+.savedetails__button > button {
+    margin-top: 40px;
+    margin-left: 500px;
+    border: 1px solid black;
+}
+
+.address__validation > p {
+    margin-top: 74px;
+    margin-left: -253px;
+    font-family: monospace;
+    color: red;
+}
+.city__validation > p{
+color: red;
+font-family: monospace;
+margin-top: 6px;
+}

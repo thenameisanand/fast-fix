@@ -1,0 +1,126 @@
+.taskers {
+  display: flex;
+  position: relative;
+  margin: 20px;
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+  cursor: pointer;
+}
+
+.taskers:hover {
+  opacity: 0.8;
+}
+
+
+.taskers > img {
+    object-fit: cover;
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.taskers__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 20px;
+
+}
+
+.taskers__heart {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+}
+
+.taskers__infoTop {
+  width: 40vw;
+
+}
+
+.taskers__infoTop > h3 {
+  font-weight: 300;
+  margin-top: 10px;
+}
+
+.taskers__infoTop > p {
+  margin-top: 10px;
+  font-size: 13px;
+  color: gray;
+}
+
+.taskers__infoBottom {
+  border-bottom: 1px solid lightgray;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.taskers__star {
+  color: red;
+}
+
+.taskers__stars {
+  align-items: center;
+}
+
+.taskers__price > p {
+  text-align: right;
+}
+.taskers__price > p > button {
+  margin: 3px;
+  text-align: right;
+}
+
+.taskers__price {
+  display: flex;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+.buttons {
+  justify-content: space-evenly;
+  border-radius: 40px;
+}
+.taskers__price > button {
+  display: flex;
+}
+.taskers__price {
+  justify-content: space-evenly;
+
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  width: 40vw;
+}
+.taskers__price > p {
+  margin-top: 10px;
+  font-size: 20px;
+  color: gray;
+}
+.taskers__price > button {
+ margin-left: 30px;
+}
+.taskers__star > p > strong {
+  color: aqua;
+  font-size: smaller;
+}
+.job__des {
+  display: flex;
+}
+
+.job__des > p{
+  font-size: small;
+  color: gray;
+  margin-left: 0px;
+
+}
+.p > p{
+  font-size: small;
+  color: royalblue;
+  margin-left: 10px;
+}
+.b > button {
+  margin-left: 420px;
+}

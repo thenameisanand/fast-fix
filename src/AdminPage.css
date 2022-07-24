@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Oswald:wght@500&family=Shadows+Into+Light&family=Source+Code+Pro:wght@200;700&display=swap');
+
+.adminPage {
+    background-color: white;
+    }
+    .adminPage__container {
+        display: flex;
+        height: 20000px;
+        background-color: #edf2f9;
+    }
+    .adminPage__Left {
+        text-decoration: none;
+        position: fixed;
+        border-radius: 15px;
+        margin-top: 20px;
+        margin-left: 19px;
+        width: 250px;
+        height: 620px;
+      background-color: #edf2f9;
+      /*  background-color: #ecdcd8;*/
+     /* box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);*/
+
+    }
+    .adminPage__Right {
+        margin-left: 295px;
+        width: 1054px;
+    }
+    .Right__middleOne {
+    
+        margin-left: 20px;
+        height: 142px;
+        width: 238px;
+        background-color: white;
+        border-radius: 15px;
+        box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+    
+    }
+    .Right__middle {
+        justify-content: space-between;
+        margin: 30px;
+        display: flex;
+    }
+    .Right__below {
+        justify-content: space-between;
+        margin: 30px;
+        display: flex;
+    }
+    .Right__belowOne {
+        margin-left: 20px;
+        height: auto;
+        width: 724px;
+        background-color: white;
+        border-radius: 15px;
+        box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+    }
+    .adminPage__LeftDetails {
+
+        display: flex;
+        text-align: center;
+    }
+    .adminPage__LeftDetails > h1 {
+
+        font-size: larger;
+        margin-top: 4px;
+        margin-left: 30px;
+    color: grey;
+    
+    }
+    .adminPage__LeftDetails > img {
+        object-fit: cover;
+        margin-top: -3px;
+        margin-left: 5px;
+        height: 44px;
+        width: 44px;
+        border-radius: 35px;
+    }
+    .Right__middleOne > h4 {
+        margin-left: 20px;
+    }
+    .Right__middleOne > h1 {
+    
+        color: #f5803e;
+        margin-top: -20px;
+        margin-left: 20px;
+    }
+    .Right__middleOne > h5 {
+            margin-left: 20px;
+    
+        color: #2362b7;
+    }
+    .Right__above {
+        justify-content: space-between;
+        display: flex;
+    }
+    .Right__above > h4 {
+        margin-left: 49px;
+        margin-right: 104px;
+    }
+    .LeftDetails__Two {
+    
+        margin-top: 50px;
+        margin-left: 111px;
+    }
+    .LeftDetails__Two > h4:hover {
+        cursor: pointer;
+        margin-left: 20px;
+        opacity: 0.6s;
+        border-radius: 5px;
+        transition: 0.6s;
+    background-color: white;
+    }
+    .Right__above > h4 {
+        cursor: pointer;
+    }
+    .Right__belowTwo {
+        height: auto;
+        width: 228px;
+        background-color: white;
+        border-radius: 15px;
+        box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+    }
+    .Right__above > h4 > input {
+        
+        height: 32.9px;
+        width: 336px;
+        border: 1px solid #d8e2ef;
+        border-radius: 25px;
+        padding: 5px 32px 5px 32px;
+        display: block;
+    }
+    .table__admins > tr > td {
+        text-align: center;
+        border-bottom: 1px solid #EDF2F9;
+        padding: 10px;
+      }
+      .table__admins > tr > td:hover {
+        color: blue;
+        cursor: pointer;
+      }
+      .table__admins > tr > th {
+        padding: 10px;
+        background-color: #f0f4fc;
+        text-align: center;
+        width: 300px;
+        justify-content: space-evenly;
+        margin-left: 40px;
+      }
+      
